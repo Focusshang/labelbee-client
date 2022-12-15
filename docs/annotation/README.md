@@ -5,7 +5,7 @@
 - [通用配置](./common.md)
 - [目标检测](./rectTool.md)
 - [目标分类](./tagTool.md)
-- [语义分割](./polygonTool.md)
+- [实例分割](./polygonTool.md)
 - [文本转写](./textTool.md)
 - [轮廓线检测](./lineTool.md)
 - [关键点检测](./pointTool.md)
