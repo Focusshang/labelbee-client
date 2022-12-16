@@ -75,6 +75,10 @@ labelu
 
 [LabelU 标注格式](./docs/annotation/README.md)
 
+## 技术交流
+
+OpenDataLab微信群
+
 ## 友情链接
 
 - [LabelU-kit](https://github.com/opendatalab/labelU-Kit)（本工具都是通过 LabelU-kit 进行开发）
