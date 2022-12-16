@@ -8,7 +8,7 @@
   "height": 2912,
   "valid": true,
   "rotate": 0,
-  "step_1": {
+  "rectTool": {
     "toolName": "rectTool",
     "result": [
       {
@@ -19,7 +19,6 @@
         "attribute": "",
         "valid": true,
         "id": "Rp1x6bZs",
-        "sourceID": "",
         "textAttribute": "",
         "order": 1
       }
