@@ -1,18 +1,16 @@
-
 <div align="center">
 <article style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
     <p align="center"><img width="300" src="https://github.com/opendatalab/labelU/blob/main/images/labelU-logo.svg" /></p>
     <h1 style="width: 100%; text-align: center;"></h1>
-    <p>
-        <a href="#快速开始">Get started</a>
-        ·
-        <a href="#特性" >Usage</a>
-        ·
-        <a href="./README.md" >English</a>
+    <p align="center">
+        简体中文 | <a href="./README.md" >English</a>
     </p>
 </article>
+    
+<p align="center">
 <img src="./docs/assets/main.png">
-
+</p>
+   
 </div>
 
 ## 快速开始
