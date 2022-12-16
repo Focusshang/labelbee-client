@@ -68,7 +68,7 @@ labelu
 
 ## 技术交流
 
-OpenDataLab微信群
+![8faa20cf-6898-4b16-b4cc-174795159f2c](https://user-images.githubusercontent.com/25022954/208056502-d752ecf3-783a-48ab-9742-bb30e42cbc85.jpg)
 
 ## 友情链接
 
