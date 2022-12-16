@@ -13,24 +13,44 @@
 
 </div>
 
+## Introduction
+
+LabelU is an open source data annotation tool that supports Chinese. At present, it has image annotation capabilities such as rectangle, polygon, point, line, classification, description. It can support detection, classification, segmentation, text transcription, Line detection, key point detection and other computer vision task scenarios. You can customize the annotation task by freely combining tools, and support COCO and MASK format data export.
+
 ## Getting started
 
-- 📦 Out of the Box, built-in six annotation tools, simple configurations
-- 🪵 Flexible combinations, multiple tools can directly rely on each other
-- 💻 Multiple operating systems: Mac / Linux / Windows
-- 🏁 Support Data Formats
+### Download and Install miniconda
 
-|        | General Data | COCO | Semantic Segmentation Mask |
-| ------ | ------------ | ---- | -------------------------- |
-| Export | ✔️            | ✔️    | ✔️                          |
-| Import | ✔️            | ✖    | ✖                          |
+https://docs.conda.io/en/latest/miniconda.html
 
-## Download
+### Create and activate virtual environment(python = 3.10)
 
-[Mac & Windows & Linux](https://github.com/open-mmlab/labelbee-client/releases)
+```bash
+conda create -n labelu --python=3.10
+conda activate labelu
+```
 
-## Support Scenes
+### Install labelu
 
+```bash
+pip install labelu
+```
+
+### Start labelu，server：http://localhost:8000
+
+```bash
+labelu
+```
+
+## feature
+
+- Uniform，Six image annotation tools are provided, which can be configured through simple visualization or Yaml
+- Unlimited，Multiple tools can be freely combined to meet most image annotation requirements
+- Universal，Support multiple data export formats, including LabelU, COCO, Mask
+
+## Scenes
+
+### Computer Vision
 - Detection: Detection scenes for vehicles, license plates, pedestrians, faces, industrial parts, etc.
 - Classification: Detection of object classification, target characteristics, right and wrong judgments, and other classification scenarios
 - Semantic segmentation: Human body segmentation, panoramic segmentation, drivable area segmentation, vehicle segmentation, etc.
@@ -51,13 +71,15 @@
 
 ## Usage
 
--  [Getting Started](./docs/README.md) 
+-  [Guide](./docs/README.md) 
 
 ## Annotation Format
 
-
 [LabelU Annotation Format](./docs/annotation/README.md)
 
+## Communication
+
+![8faa20cf-6898-4b16-b4cc-174795159f2c](https://user-images.githubusercontent.com/25022954/208056526-bc2de8b9-f5c5-4095-9e97-a2bf1b08bd1b.jpg)
 
 ## Links
 
