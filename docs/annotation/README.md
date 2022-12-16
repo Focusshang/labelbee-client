@@ -1,15 +1,5 @@
 # 标注格式说明
 
-## 工具类型
-
-- [通用配置](./common.md)
-- [目标检测](./rectTool.md)
-- [目标分类](./tagTool.md)
-- [实例分割](./polygonTool.md)
-- [文本转写](./textTool.md)
-- [轮廓线检测](./lineTool.md)
-- [关键点检测](./pointTool.md)
-
 ## 通用格式
 
 ```json
@@ -37,6 +27,16 @@
   }
 }
 ```
+
+## 工具类型
+
+- [通用配置](./common.md)
+- [目标检测](./rectTool.md)
+- [目标分类](./tagTool.md)
+- [实例分割](./polygonTool.md)
+- [文本转写](./textTool.md)
+- [轮廓线检测](./lineTool.md)
+- [关键点检测](./pointTool.md)
 
 ## COCO 数据类型
  
