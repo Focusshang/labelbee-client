@@ -73,31 +73,7 @@ labelu
 
 ## 标注格式说明
 
-```json
-{
-  "width": 4368,
-  "height": 2912,
-  "valid": true,
-  "rotate": 0,
-  "rectTool": {
-    "toolName": "rectTool",
-    "result": [
-      {
-        "x": 530.7826086956522,
-        "y": 1149.217391304348,
-        "width": 1314.7826086956522,
-        "height": 1655.6521739130435,
-        "attribute": "",
-        "valid": true,
-        "id": "Rp1x6bZs",
-        "sourceID": "",
-        "textAttribute": "",
-        "order": 1
-      }
-    ]
-  }
-```
-详细细节请查看 [LabelU 标注格式](./docs/annotation/README.md)
+[LabelU 标注格式](./docs/annotation/README.md)
 
 ## 友情链接
 
