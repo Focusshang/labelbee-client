@@ -51,23 +51,13 @@ labelu
 ## Scenes
 
 ### Computer Vision
+
 - Detection: Detection scenes for vehicles, license plates, pedestrians, faces, industrial parts, etc.
 - Classification: Detection of object classification, target characteristics, right and wrong judgments, and other classification scenarios
 - Semantic segmentation: Human body segmentation, panoramic segmentation, drivable area segmentation, vehicle segmentation, etc.
 - Text transcription: Text detection and recognition of license plates, invoices, insurance policies, signs, etc.
 - Contour detection: positioning line scenes such as human contour lines, lane lines, etc.
 - Key point detection: positioning scenes such as human face key points, vehicle key points, road edge key points, etc.
-
-<div align="center">
-  <img src="./docs/assets/annotation-detection-segmentation.gif"/>
-
-  <i style="text-align: center;">Detection / Segmentation </i>
-  
-  <img src="./docs/assets/annotation-line-point-text.gif"/>
-
-  <i style="text-align: center;">Line / Point / Text </i>
-</p> 
-</div>
 
 ## Usage
 
