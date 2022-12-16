@@ -8,13 +8,11 @@
   "height": 681,
   "rotate": 0,
   "valid": true,
-  "step_1": {
-    "dataSourceStep": 0,
+  "textTool": {
     "toolName": "textTool",
     "result": [
       {
         "id": "ULNah0Wf",
-        "sourceID": "",
         "text": "textValue",
         "value": {
           "text": "textValue"
