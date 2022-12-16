@@ -12,20 +12,15 @@
 
 ## 通用格式
 
-LabelBee 的标注格式以`步骤`为基础，最顶层的会放置图片的基础信息，`图片的宽度`、`高度`、`有无效性`、`旋转角度`。
-
-标注的信息放置在`step_1`内，`step_1`内表示为第一步数据，步骤内有`toolName` 和 `result` 两个字段，`toolName` 表示标注结果使用的工具类型，`result` 表示标注结果数组，具体细节点击上方工具。 
-
-
 ```json
 {
-  "width": 4368,
-  "height": 2912,
-  "valid": true,
-  "rotate": 0,
-  "step_1": {
-    "toolName": "rectTool",
-    "result": [
+  "width": 4368, //图像宽度
+  "height": 2912, //图像高度
+  "valid": true, //是否有效
+  "rotate": 0, //旋转角度
+  "rectTool": {
+    "toolName": "rectTool", // 工具名称
+    "result": [ 
       {
         "x": 530.7826086956522,
         "y": 1149.217391304348,
@@ -46,12 +41,11 @@ LabelBee 的标注格式以`步骤`为基础，最顶层的会放置图片的基
 ## COCO 数据类型
  
 COCO(Common Object in Context) 是一个大规模的对象检测、分割和字幕数据集。具体定义请前往[官网](https://cocodataset.org/#home)查看
-
-LabelBee-Client 的`目标检测`、`语义分割`支持直接导出 COCO 数据类型。
+仅物体检测（拉框）、实例分割（多边形）支持导出COCO
 
 ## Mask 格式导出说明
 
-仅`语义分割`可导出 Mask。
+仅分割任务（多边形）可导出 Mask。
 
 - 背景色默认为黑色：  0 `（rgb(0,0,0))`
 - 语义的唯一性：语义分割的属性标注配置
@@ -87,24 +81,3 @@ LabelBee-Client 的`目标检测`、`语义分割`支持直接导出 COCO 数据
 | attribute | 当前语义                                   |
 | color     | 当前语义颜色                               |
 | trainIds  | 训练使用的 ID （灰度值 1 - N，0 表示背景） |
-
-
-- 可使用下方脚本将导出的 Mask (xxx_labelTrainIds.png 四通道图片)转换为（单通道）灰度图，以用于[mmsegmentation](https://github.com/open-mmlab/mmsegmentation) 训练
-
-
-```python
-# FilePath: labelbee-client/scripts/dataTransfer.py
-
-from PIL import Image
-from pathlib import Path, PurePath
-
-folder_path = './img/'  # The folder of your exported data
-
-p = Path(folder_path)
-files = [x for x in p.iterdir() if PurePath(x).match('*_labelTrainIds.png')]
-
-for file in files:
-  p_path = file
-  p = Image.open(p_path).convert('L') # Transfer to L mode (8-bit pixels, black and white)
-  p.save(file.name + '_labelTrainIds.png')
-```
