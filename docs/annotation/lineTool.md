@@ -8,8 +8,7 @@
   "height": 681,
   "rotate": 0,
   "valid": true,
-  "step_1": {
-    "dataSourceStep": 0,
+  "lineTool": {
     "toolName": "lineTool",
     "result": [
       {
