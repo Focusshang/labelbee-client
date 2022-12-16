@@ -1,20 +1,19 @@
 <div align="center">
 <article style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-    <p align="center"><img width="300" src="./src/assets/logo.svg" /></p>
-    <h1 style="width: 100%; text-align: center;">LabelBee-Client</h1>
-    <p>
-        <a href="https://github.com/open-mmlab/labelbee-client/releases">Releases</a>
-        ·
-        <a href="./docs/README.md" >Getting Started</a>
-        ·
-        <a href="./README_zh-CN.md" >简体中文</a>
+    <p align="center"><img width="300" src="https://github.com/opendatalab/labelU/blob/main/images/labelU-logo.svg" /></p>
+    <h1 style="width: 100%; text-align: center;"></h1>
     </p>
 </article>
+
+<a href="./README_zh-CN.md" >简体中文</a> | English
+
+<p align="center">
 <img style="width: 700px" src="./docs/assets/main.png">
+</p>
 
 </div>
 
-## Features
+## Getting started
 
 - 📦 Out of the Box, built-in six annotation tools, simple configurations
 - 🪵 Flexible combinations, multiple tools can directly rely on each other
@@ -56,40 +55,13 @@
 
 ## Annotation Format
 
-```json
-{
-  "width": 4368,
-  "height": 2912,
-  "valid": true,
-  "rotate": 0,
-  "step_1": {
-    "toolName": "rectTool",
-    "result": [
-      {
-        "x": 530.7826086956522,
-        "y": 1149.217391304348,
-        "width": 1314.7826086956522,
-        "height": 1655.6521739130435,
-        "attribute": "",
-        "valid": true,
-        "id": "Rp1x6bZs",
-        "sourceID": "",
-        "textAttribute": "",
-        "order": 1
-      }
-    ]
-  }
-}
-```
-For details, click to view [LabelBee Annotation Format](./docs/annotation/README.md)
 
-## Important
-js can't export 8bit unsign Int image, so a python script is provided to solve this problem
-- [Script] (https://github.com/open-mmlab/labelbee-client/blob/main/scripts/dataTransfer.py)
+[LabelU Annotation Format](./docs/annotation/README.md)
+
 
 ## Links
 
-- [LabelBee](https://github.com/open-mmlab/labelbee)（Powered by LabelBee）
+- [labelU-Kit](https://github.com/opendatalab/labelU-Kit)（Powered by labelU-Kit）
 
 ## LICENSE
 
