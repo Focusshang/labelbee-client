@@ -10,13 +10,11 @@
   "height": 576,
   "rotate": 0,
   "valid": true,
-  "step_1": {
-    "dataSourceStep": 0,
+  "tagTool": {
     "toolName": "tagTool",
     "result": [
       {
         "id": "CXHF5QUM",
-        "sourceID": "",
         "result": {
           "class1": "option1-2;option1",
           "class-Xn": "option2-1"
