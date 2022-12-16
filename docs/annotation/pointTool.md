@@ -8,8 +8,7 @@
   "height": 681,
   "rotate": 0,
   "valid": true,
-  "step_1": {
-    "dataSourceStep": 0,
+  "pointTool": {
     "toolName": "pointTool",
     "result": [
       {
@@ -17,8 +16,6 @@
         "y": 298.18934911242604,
         "valid": true,
         "id": "ts5DBxDI",
-        "sourceID": "",
-        "label": "",
         "order": 1,
         "attribute": "class-1Q",
         "textAttribute": "我是标点"
