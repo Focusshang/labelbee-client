@@ -1,4 +1,4 @@
-# 语义分割(polygonTool)
+# 实例分割(polygonTool)
 
 ## 格式说明
 
@@ -8,12 +8,10 @@
   "height": 681,
   "rotate": 0,
   "valid": true,
-  "step_1": {
-    "dataSourceStep": 0,
+  "polygonTool": {
     "toolName": "polygonTool",
     "result": [
       {
-        "sourceID": "",
         "id": "j91grNMP",
         "pointList": [
           {
@@ -38,32 +36,6 @@
         "order": 1,
         "textAttribute": "",
         "isRect": true
-      },
-      {
-        "sourceID": "",
-        "id": "sd21gdsP",
-        "pointList": [
-          {
-            "x": 423.4319526627219,
-            "y": 235.54201183431957
-          },
-          {
-            "x": 332.85325443786985,
-            "y": 123.09112426035506
-          },
-          {
-            "x": 982.4650887573964,
-            "y": 289.3242603550296
-          },
-          {
-            "x": 320.9976331360947,
-            "y": 345.73846153846154
-          }
-        ],
-        "valid": true,
-        "attribute": "class-3D",
-        "order": 2,
-        "textAttribute": ""
       }
     ]
   }
